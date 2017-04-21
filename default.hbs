@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title></title>
+
+
+   {{!-- CSS --}}
+   <link rel="stylesheet" type="text/css" href="{{asset "css/master-min.css"}}" />
+
+
+
+
+  {{!-- Brand icon --}}
+  <link rel="shortcut icon" href="{{asset "favicon.ico"}}">
+
+
+  {{!-- Ghost outputs important style and meta data with this tag --}}
+  {{ghost_head}}
+</head>
+<body class="{{body_class}}">
+
+
+    {{!-- All the main content gets inserted here, index.hbs, post.hbs, etc --}}
+
+        {{{body}}}
+
+
+    {{!-- The tiny footer at the very bottom --}}
+    {{ghost_foot}}
+
+
+    {{!-- Javascript --}}
+    <script type="text/javascript" src="{{asset "js/all-scripts-min.js"}}"></script>
+
+
+</body>
+</html>
