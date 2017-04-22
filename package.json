@@ -13,8 +13,14 @@
     "gulp-clean-css": "^3.0.4",
     "gulp-concat": "^2.6.1",
     "gulp-csslint": "^1.0.0",
+    "gulp-csslint-less-reporter": "^0.2.0",
+    "gulp-jshint": "^2.0.4",
     "gulp-less": "^3.3.0",
+    "gulp-lesshint": "^3.0.0",
     "gulp-rename": "^1.2.2",
-    "gulp-uglify": "^2.1.2"
+    "gulp-sourcemaps": "^2.6.0",
+    "gulp-uglify": "^2.1.2",
+    "jshint": "^2.9.4",
+    "run-sequence": "^1.2.2"
   }
 }

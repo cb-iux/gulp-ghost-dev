@@ -1,1 +1,14 @@
-html body{background:red}a{color:#ff0}
+/*  VARIABLES  */
+/*  MIXINS  */
+/*  INDEX  */
+a {
+  background-color: #000000;
+  color: red;
+}
+.btn {
+  wih: 800px;
+}
+.btn li {
+  color: red;
+  font-size: 30px;
+}

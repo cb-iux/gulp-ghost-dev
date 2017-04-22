@@ -3,4 +3,4 @@ var x, y, z;
     y = 5;
     z = x + y;
 
-document.write(z);
+console.log(z);
